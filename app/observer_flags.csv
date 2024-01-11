@@ -1,0 +1,60 @@
+ObsID start,ObsID end,Pixels,Sidebands,"0=flag, 1=caution",Reason,Added by,Date
+7000,9300,"3,4,5,7,11,18",all,1,Visual inspection of maps shows fg6 data poor in this period.,Stuart,25/09/2023
+11500,15334,"3,5,7,8,9",all,1,Visual inspection of GField00 to GField07 showed these feeds are poor.,Stuart,25/09/2023
+7439,,"6,16",all,1,These pixels were swapped for this observation.,Kieran,2/7/2022
+7453,,"6,16",all,1,These pixels were swapped for this observation.,Kieran,2/7/2022
+7460,7461,all,all,1,Lissajous scan mis-labeled as circular.,Kieran,2/7/2022
+7463,7488,all,all,1,Lissajous scan mis-labeled as circular.,Kieran,2/7/2022
+7491,7496,all,all,1,Lissajous scan mis-labeled as circular.,Kieran,2/7/2022
+7523,7554,all,all,0,Flag all due to incorrect az/el offsets.,Kieran,2/7/2022
+7567,7570,all,all,0,LNAs biased off,Kieran,2/7/2022
+7571,7587,6,all,1,Wrong bias,,
+7663,,all,all,0,This observation was running when a problem occurred with the control system. Empy dada file. No L1.,Kieran,
+14376,,all,all,0,Did not execute scanning pattern,Kieran,
+14377,,all,all,0,Did not execute scanning pattern,Kieran,
+14378,,8,all,1,Pixel 8 was rebiased during this observation,Kieran,
+15437,16147,"4,12",all,1,These pixels were swapped for these observations.,Kieran,2/7/2022
+17401,,5,all,1,Takes time to stabilize after saddlebag amplifier turn on,,
+17424,,5,all,1,Takes time to stabilize after saddlebag amplifier turn on,,
+17425,,5,all,1,Takes time to stabilize after saddlebag amplifier turn on,,
+17515,,5,all,1,Takes time to stabilize after saddlebag amplifier turn on,,
+17716,,all,all,0,Observation interrupted by power failure,Tim,
+17912,,all,all,0,Observation interrupted by power failure,Tim,
+18344,,all,all,0,Observation was too long to process (got stuck for some reason),Tim,
+18345,,all,all,0,Power drifting in all pixels,Liju,7/12/2022
+18416,,all,all,0,James tightened and wiggled IF cables going into the DCM2. That had observable effects in the L1 plots.,Kieran,3/12/2021
+18512,,all,all,0,Observation was too long to process (got stuck for some reason),Tim,
+18724,,many,all,0,Roach synchronization failure: data time stamps wrong,Tim,3/24/2021
+18815,18839,all,all,0,No control system archive data/pointing.,Tim,3/28/2021
+20405,20497,all,all,0,Erroneous az/el encoder offsets.,Kieran,5/24/2021
+20562,20738,all,all,0,Bad IQ Cal,,
+20533,20779,all,all,0,"Start obsid indicates start of period of worst az motor problems, with many failures to acquire lissajous and jerky tracking. Faulty motor was replaced, with the first good obsid after this replacement being 20780.",,
+20892,20914,all,all,0,Vane was stuck so no vane observations during this period.,,
+22133,22413,10,bandA,1,"Debugging power drift in pix10A, ran different IQ cal on pix10A to stop sideband separation",Liju,7/19/2021
+24769,24796,all,all,0,"DCM2 12V supply went down, power drop in L1 plots",Liju,10/27/2021
+25257,25271,all,all,0,Azimuth drive problem,Liju,11/17/2021
+25786,25788,all,all,0,No data written to the archive.,Liju,12/6/2021
+26026,26048,all,all,0,Incorrect elevation and azimuth values recorded.,Liju,12/17/2021
+26303,26453,all,all,1,"Smearing observed in point source maps for e.g. in TauA, possibly due to bad weather?",Liju,1/5/2022
+26854,26878,all,all,0,Bad obsids. Incorrect DADA header etc.,Liju,1/12/2022
+25907,26024,all,all,1,"New firmware, old clock 2.00 GHz, details in the pathfinder log",Liju,1/24/2022
+26879,26910,all,all,1,"New firmware, new clock 2.10 GHz, details in the pathfinder log",Liju,1/24/2022
+28086,28093,all,all,0,No archive file,Liju,3/1/2022
+28135,,all,all,0,Possible wrong dada header,Liju,3/2/2022
+28363,28380,all,all,0,Azimuth drive problem,Liju,3/14/2022
+28390,28393,all,all,0,Azimuth drive problem,Liju,3/15/2022
+28825,28833,all,all,1,Power drifting in all pixels,Liju,6/8/2022
+29354,29357,all,all,0,No data written to the archive.,Liju,7/12/2022
+29589,29610,all,all,0,"Cryo failure, compressor tripped",Liju,7/12/2022
+29637,29643,all,all,0,"Cryo failure, compressor tripped",Liju,7/15/2022
+29645,32570,6,all,1,Feed 6 low power,Liju,7/15/2022
+29657,,3,all,1,Feed 3 power drift,Liju,7/15/2022
+29846,29852,all,all,0,"Cryo failure, compressor tripped",Liju,7/25/2022
+30215,30227,all,all,0,No data due to backend failure,Liju,8/5/2022
+30228,30255,all,all,0,Multiple pixels mislabelled,Liju,8/5/2022
+31551,31623,all,all,0,No data,,
+32816,32951,all,all,0,Vane stuck,Liju,9/11/2023
+32594,32595,all,all,0,Receiver was just put back on the telescope and large gain swings were seen. Perhaps aircon issues.,Kieran,8/16/2023
+32594,32773,"1,13,15",all,0,These pixels were having stability issues until James tightened connectors.,Kieran,8/16/2023
+32594,,10,all,1,"This pixel has had stabilty issues ever since we put the receiver back on the telescope in June 2023. However, sometimes it looks ok. I have noted it here but not put a flag in as Oslo filters may be able to reject the bad data.",Kieran,8/16/2023
+34788,34796,all,all,0,No archive file,Liju,9/2/2023
